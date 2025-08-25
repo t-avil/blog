@@ -1,7 +1,7 @@
 ---
 # Basic info
-title: '{{ replace .File.BaseFileName "-" " " | title }}'
-date: '{{ .Date }}'
+title: {{ replace .File.BaseFileName "-" " " | title }}
+date: {{ .Date }}
 draft: false
 description: "Short description of the post."
 tags: ["first"]
