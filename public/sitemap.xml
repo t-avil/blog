@@ -3,46 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/datadog-migration/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/grafana/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/lgtm-stack-or-die/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/loki/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mimir/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/observability/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/opentelemetry/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/phlare/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/prometheus/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tempo/</loc>
-    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/batch/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cdc/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-engineering/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-warehouse/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dbt/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/end2ending-data-warehouse/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/streaming/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/system-design/</loc>
+    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/compliance/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>

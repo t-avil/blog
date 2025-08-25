@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2025 08:16:06 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 08:15:04 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lgtm Stack or Die</title>
       <link>http://localhost:1313/posts/lgtm-stack-or-die/</link>
-      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
       <guid>http://localhost:1313/posts/lgtm-stack-or-die/</guid>
       <description>Alloy, Mimir, Loki, Tempo, Phlare, S3, and a lot of hair-pulling</description>
+    </item>
+    <item>
+      <title>End to ending Data Warehouses as a concept</title>
+      <link>http://localhost:1313/posts/end2ending-data-warehouse/</link>
+      <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
+      <guid>http://localhost:1313/posts/end2ending-data-warehouse/</guid>
+      <description>A slightly practical walkthrough of designing a CDC-powered data pipeline: ingestor, bronze lake, silver warehouse, and dbt-powered golden marts with batch DAGs, streaming joins, state management, and chunked reducers.</description>
     </item>
     <item>
       <title>Tail of Two Regulation and Compliance</title>

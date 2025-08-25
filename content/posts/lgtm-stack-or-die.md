@@ -1,7 +1,7 @@
 ---
 # Basic info
 title: "Lgtm Stack or Die"
-date: 2025-01-25T08:16:06-07:00
+date: 2025-01-13T08:15:04-03:00
 draft: false
 description: "Alloy, Mimir, Loki, Tempo, Phlare, S3, and a lot of hair-pulling"
 tags: ["observability","grafana","mimir","loki","tempo","phlare","opentelemetry","prometheus","golang","datadog-migration"]
