@@ -1,10 +1,10 @@
 ---
 # Basic info
-title: {{ replace .File.BaseFileName "-" " " | title }}
-date: {{ .Date }}
+title: "{{ replace .File.BaseFileName "-" " " | title }}"
+date: {{ .Date | default now }}
 draft: false
 description: "Short description of the post."
-tags: ["first"]
+tags: []
 author: "Me" # For multiple authors, use: ["Me", "You"]
 
 # Metadata & SEO
