@@ -3,41 +3,166 @@ languageCode: "en-us"
 title: "T|A"
 theme: PaperMod
 
-enableEmoji: true
-pygmentsUseClasses: true
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
+  minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Github
+          url: https://github.com/CrustularumAmator
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-  env: production
-  description: "Tim Avilov's website"
-  author: "Tim Avilov"
+  env: production 
+  description: "Personal Blog"
+  author: ["Me"] 
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: TymofiiAvil
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "blog_"
+    Content: >
+      Hello 👋, I'm an engineer at heart, focused on thoughtful creation with an emphasis on resilience, durability, and availability. You can trace my work here. Always open to discussing current, past, or future projects!
+
+    socialIcons:
+      - name: github
+        url: "https://github.com/BeOrNot2Be"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/tim-avilov/"
+      - name: twitter
+        url: "https://twitter.com/filigreedd"
+      - name: telegram
+        url: "https://t.me/BeOrNot2Be"
+      - name: email
+        url: "mailto:timchick.ua@gmail.com"
+
+  editPost:
+    URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
+    Text: "Suggest Changes" 
+    appendFilePath: true 
+
+  # label:
+  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
 
   assets:
+    disableHLJS: true
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
 
-  defaultTheme: dark
-  disableThemeToggle: true
-  profileMode:
-    enabled: true
-    title: "Tim Avilov"
-    subtitle: "Hello 👋, I'm an engineer at heart, focused on thoughtful creation with an emphasis on resilience, durability, and availability. You can trace my work here. Always open to discussing current, past, or future projects!"
-  socialIcons:
-    - name: github
-      url: "https://github.com/BeOrNot2Be"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/tim-avilov/"
-    - name: twitter
-      url: "https://twitter.com/filigreedd"
-    - name: telegram
-      url: "https://t.me/BeOrNot2Be"
-    - name: email
-      url: "mailto:timchick.ua@gmail.com"
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
