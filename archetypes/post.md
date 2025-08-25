@@ -28,17 +28,9 @@ comments: false
 disableHLJS: false # set true to disable Highlight.js
 disableShare: false
 
-# Cover image
-cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>"         # alt text
-  caption: "<caption text>" # display caption under cover
-  relative: false           # set true when using page bundles
-  hidden: true              # only hide on current single page
-
 # Edit link
 editPost:
-  URL: "https://github.com/<path_to_repo>/content"
+  URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
 ---

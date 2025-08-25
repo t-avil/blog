@@ -2,9 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on T|A</title>
-    <link>https://timavilov.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on T|A</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://timavilov.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>T|A</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Aug 2025 07:52:54 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compliance</title>
+      <link>http://localhost:1313/tags/compliance/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/compliance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fintech</title>
+      <link>http://localhost:1313/tags/fintech/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/fintech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HIPAA</title>
+      <link>http://localhost:1313/tags/hipaa/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/hipaa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lessons</title>
+      <link>http://localhost:1313/tags/lessons/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/lessons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOC2</title>
+      <link>http://localhost:1313/tags/soc2/</link>
+      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/soc2/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
