@@ -1,10 +1,11 @@
-# aboutme
-Personal website built with hugo.
+# Blog
+Personal website built with Hugo.
 
 > Features:
-> - Ever immortal design.
-> - 100% across board in google lighthouse.
-> - Sub 500 msec time to render.
-> - 0 security vulnerability exposure.
-> - Cloudflare cdn distribution.
-
+> - Timeless, minimalist design.
+> - 100% score across Google Lighthouse audits.
+> - Sub-500ms page render time.
+> - Zero known security vulnerabilities.
+> - Distributed via Cloudflare CDN.
+> - Essentially free to host.
+> - Almost no maintenance required.
