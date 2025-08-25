@@ -11,47 +11,117 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Aug 2025 07:52:54 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 08:16:06 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datadog-Migration</title>
+      <link>http://localhost:1313/tags/datadog-migration/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/datadog-migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/tags/golang/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grafana</title>
+      <link>http://localhost:1313/tags/grafana/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loki</title>
+      <link>http://localhost:1313/tags/loki/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/loki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mimir</title>
+      <link>http://localhost:1313/tags/mimir/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/mimir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observability</title>
+      <link>http://localhost:1313/tags/observability/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/observability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opentelemetry</title>
+      <link>http://localhost:1313/tags/opentelemetry/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/opentelemetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phlare</title>
+      <link>http://localhost:1313/tags/phlare/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/phlare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus</title>
+      <link>http://localhost:1313/tags/prometheus/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/prometheus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tempo</title>
+      <link>http://localhost:1313/tags/tempo/</link>
+      <pubDate>Sat, 25 Jan 2025 08:16:06 -0700</pubDate>
+      <guid>http://localhost:1313/tags/tempo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Compliance</title>
       <link>http://localhost:1313/tags/compliance/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
       <link>http://localhost:1313/tags/devops/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Fintech</title>
       <link>http://localhost:1313/tags/fintech/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/fintech/</guid>
       <description></description>
     </item>
     <item>
       <title>HIPAA</title>
       <link>http://localhost:1313/tags/hipaa/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/hipaa/</guid>
       <description></description>
     </item>
     <item>
       <title>Lessons</title>
       <link>http://localhost:1313/tags/lessons/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/lessons/</guid>
       <description></description>
     </item>
     <item>
       <title>SOC2</title>
       <link>http://localhost:1313/tags/soc2/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/soc2/</guid>
       <description></description>
     </item>

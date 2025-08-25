@@ -2,35 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/compliance/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/tags/datadog-migration/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fintech/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/tags/grafana/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hipaa/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/posts/lgtm-stack-or-die/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lessons/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/tags/loki/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mimir/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/observability/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opentelemetry/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/phlare/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/soc2/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <loc>http://localhost:1313/tags/prometheus/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tempo/</loc>
+    <lastmod>2025-01-25T08:16:06-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/compliance/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devops/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fintech/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hipaa/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lessons/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/soc2/</loc>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</loc>
-    <lastmod>2025-08-25T07:52:54-07:00</lastmod>
+    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives.fr/</loc>
   </url><url>

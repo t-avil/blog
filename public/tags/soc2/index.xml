@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Aug 2025 07:52:54 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 07:52:54 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/soc2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tail of Two Regulation and Compliance</title>
       <link>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</link>
-      <pubDate>Mon, 25 Aug 2025 07:52:54 -0700</pubDate>
+      <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
       <guid>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</guid>
-      <description>Notes from a college kid who built fintech features, survived audits, and learned that compliance is just product design with a lawyer and a checklist.</description>
+      <description>Notes from building fintech features and surviving real audits.</description>
     </item>
   </channel>
 </rss>
