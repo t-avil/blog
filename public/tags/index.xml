@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jan 2025 08:15:04 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 14:42:25 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:1313/tags/backend/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloth</title>
+      <link>http://localhost:1313/tags/cloth/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/cloth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edge-Computing</title>
+      <link>http://localhost:1313/tags/edge-computing/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/edge-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game-Dev</title>
+      <link>http://localhost:1313/tags/game-dev/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/game-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mmorpg</title>
+      <link>http://localhost:1313/tags/mmorpg/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/mmorpg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netcode</title>
+      <link>http://localhost:1313/tags/netcode/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/netcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spatial-Partitioning</title>
+      <link>http://localhost:1313/tags/spatial-partitioning/</link>
+      <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
+      <guid>http://localhost:1313/tags/spatial-partitioning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Datadog-Migration</title>
       <link>http://localhost:1313/tags/datadog-migration/</link>

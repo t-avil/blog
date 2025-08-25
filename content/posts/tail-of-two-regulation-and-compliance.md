@@ -145,9 +145,9 @@ Contracts set expectations. Meet them.
 
 ## A practical 30/90/180 cadence to actually ship trust
 
-* **Day 1–30:** map data, RBAC, secrets manager, TLS, structured logs, one-page incident runbook.
-* **Day 31–90:** automated redaction pipeline, retention policies, basic access review cadence, vendor BAAs. Run your first tabletop.
-* **Day 91–180:** continuous vulnerability scanning, backups verification, automated evidence collection for audits. Start preparing for SOC 2 Type I if that’s your goal.
+* **Day 1-30:** map data, RBAC, secrets manager, TLS, structured logs, one-page incident runbook.
+* **Day 31-90:** automated redaction pipeline, retention policies, basic access review cadence, vendor BAAs. Run your first tabletop.
+* **Day 91-180:** continuous vulnerability scanning, backups verification, automated evidence collection for audits. Start preparing for SOC 2 Type I if that’s your goal.
 
 SOC 2 Type I = snapshot of controls. Type II = controls operating over time. Plan months, not days.
 

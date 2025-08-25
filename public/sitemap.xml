@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/backend/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloth/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/edge-computing/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-dev/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mmorpg/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/netcode/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/spatial-partitioning/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/datadog-migration/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
@@ -29,16 +62,7 @@
     <loc>http://localhost:1313/tags/phlare/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/prometheus/</loc>
-    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-13T08:15:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tempo/</loc>
