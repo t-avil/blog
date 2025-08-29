@@ -30,8 +30,11 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives
+        - name: About
+          url: about
+          weight: 5
+        - name: Chronicles
+          url: chronicles
           weight: 5
         - name: Search
           url: search/
@@ -69,19 +72,15 @@ params:
   # comments: false
   images: ["images/papermod-cover.png"]
 
-  profileMode:
-    enabled: false
-    title: TymofiiAvil
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-
   homeInfoParams:
     Title: "blog_"
-    Content: >
-      Hello 👋, I'm an engineer at heart, focused on thoughtful creation with an emphasis on resilience, durability, and availability. You can trace my work here. Always open to discussing current, past, or future projects!
+    Content: >-
+      Hello 👋,  
+
+      I am an engineer at heart ([about me](/about)), focused on thoughtful creation with an emphasis on throughput, availability, and correctness.  
+      
+
+      You can trace my mind dump here:
 
     socialIcons:
       - name: github

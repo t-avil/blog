@@ -41,5 +41,14 @@
       <guid>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</guid>
       <description>Notes from building fintech features and surviving real audits.</description>
     </item>
+    <item>
+      <title>About</title>
+      <link>https://timavilov.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://timavilov.com/about/</guid>
+      <description>&lt;p&gt;During my undergraduate studies at the &lt;a href=&#34;https://www.cs.washington.edu&#34;&gt;UW Paul G. Allen School of CSE&lt;/a&gt; (while not being busy with minoring in diversity and math), I explored teaching and research assistant opportunities.&lt;/p&gt;
+&lt;p&gt;Since then, I have developed a strong interest in ML-driven infrastructure, high-performance pipelines, inference, and distributed training.&lt;/p&gt;
+&lt;p&gt;Beyond academics and side projects, I contribute to spacecraft communication software at the &lt;a href=&#34;https://huskysat.aa.washington.edu&#34;&gt;Husky Satellite Lab (HSL)&lt;/a&gt; and mentor students through the &lt;a href=&#34;https://swecc.org&#34;&gt;Software Engineering Career Club (SWECC)&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
