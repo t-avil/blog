@@ -1,10 +1,10 @@
 ---
 # Basic info
-title: "MMORPGs From BE Eng Perspective"
+title: "NOTES: MMORPGs From BE Eng Perspective"
 date: 2025-03-05T14:42:25-07:00
 draft: false
 description: "A technical, continuous train-of-thought on building an MMO backend: edge computing, server topologies and authority, clock sync, spatial partitioning with quadtrees, and a deep dive into cloth sync."
-tags: ["game-dev","mmorpg","netcode","edge-computing","spatial-partitioning","cloth","backend"]
+tags: ["notes", "game-dev","mmorpg","netcode","edge-computing","spatial-partitioning","cloth","backend"]
 author: "Me" # For multiple authors, use: ["Me", "You"]
 
 # Metadata & SEO

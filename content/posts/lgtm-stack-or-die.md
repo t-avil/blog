@@ -1,10 +1,10 @@
 ---
 # Basic info
-title: "Lgtm Stack or Die"
+title: "NOTES: Lgtm Stack or Die"
 date: 2025-01-13T08:15:04-03:00
 draft: false
 description: "Alloy, Mimir, Loki, Tempo, Phlare, S3, and a lot of hair-pulling"
-tags: ["observability","grafana","mimir","loki","tempo","phlare","opentelemetry","prometheus","golang","datadog-migration"]
+tags: ["notes", "observability","grafana","mimir","loki","tempo","phlare","opentelemetry","prometheus","golang","datadog-migration"]
 author: "Me" # For multiple authors, use: ["Me", "You"]
 
 # Metadata & SEO

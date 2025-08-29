@@ -1,10 +1,10 @@
 ---
 # Basic info
-title: "End to ending Data Warehouses as a concept"
+title: "NOTES: End to ending Data Warehouses as a concept"
 date: 2024-10-01T23:23:37-07:00
 draft: false
 description: "A slightly practical walkthrough of designing a CDC-powered data pipeline: ingestor, bronze lake, silver warehouse, and dbt-powered golden marts with batch DAGs, streaming joins, state management, and chunked reducers."
-tags: ["data-engineering","CDC","data-warehouse","streaming","batch","dbt","system-design"]
+tags: ["notes","data-engineering","CDC","data-warehouse","streaming","batch","dbt","system-design"]
 author: "Me"
 
 # Metadata & SEO

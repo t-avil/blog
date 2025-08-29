@@ -2,11 +2,11 @@
 
 # Basic info
 
-title: "Tail of Two Regulation and Compliance"
+title: "NOTES: Tail of Two Regulation and Compliance"
 date: 2024-08-25T07:52:54-07:00
 draft: false
 description: "Notes from building fintech features and surviving real audits."
-tags: ["fintech", "compliance", "HIPAA", "SOC2", "devops", "lessons"]
+tags: ["notes", "fintech", "compliance", "HIPAA", "SOC2", "devops", "lessons"]
 author: "Me"
 
 # Metadata & SEO
