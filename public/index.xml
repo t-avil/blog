@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>T|A</title>
-    <link>http://localhost:1313/</link>
+    <link>https://timavilov.com/</link>
     <description>Recent content on T|A</description>
     <image>
       <title>T|A</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://timavilov.com/images/papermod-cover.png</url>
+      <link>https://timavilov.com/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Mar 2025 14:42:25 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timavilov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MMORPGs From BE Eng Perspective</title>
-      <link>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</link>
+      <title>NOTES: MMORPGs From BE Eng Perspective</title>
+      <link>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</guid>
+      <guid>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</guid>
       <description>A technical, continuous train-of-thought on building an MMO backend: edge computing, server topologies and authority, clock sync, spatial partitioning with quadtrees, and a deep dive into cloth sync.</description>
     </item>
     <item>
-      <title>Lgtm Stack or Die</title>
-      <link>http://localhost:1313/posts/lgtm-stack-or-die/</link>
+      <title>NOTES: Lgtm Stack or Die</title>
+      <link>https://timavilov.com/posts/lgtm-stack-or-die/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>http://localhost:1313/posts/lgtm-stack-or-die/</guid>
+      <guid>https://timavilov.com/posts/lgtm-stack-or-die/</guid>
       <description>Alloy, Mimir, Loki, Tempo, Phlare, S3, and a lot of hair-pulling</description>
     </item>
     <item>
-      <title>End to ending Data Warehouses as a concept</title>
-      <link>http://localhost:1313/posts/end2ending-data-warehouse/</link>
+      <title>NOTES: End to ending Data Warehouses as a concept</title>
+      <link>https://timavilov.com/posts/end2ending-data-warehouse/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>http://localhost:1313/posts/end2ending-data-warehouse/</guid>
+      <guid>https://timavilov.com/posts/end2ending-data-warehouse/</guid>
       <description>A slightly practical walkthrough of designing a CDC-powered data pipeline: ingestor, bronze lake, silver warehouse, and dbt-powered golden marts with batch DAGs, streaming joins, state management, and chunked reducers.</description>
     </item>
     <item>
-      <title>Tail of Two Regulation and Compliance</title>
-      <link>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</link>
+      <title>NOTES: Tail of Two Regulation and Compliance</title>
+      <link>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</guid>
+      <guid>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</guid>
       <description>Notes from building fintech features and surviving real audits.</description>
     </item>
   </channel>

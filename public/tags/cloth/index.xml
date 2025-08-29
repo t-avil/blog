@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cloth on T|A</title>
-    <link>http://localhost:1313/tags/cloth/</link>
+    <link>https://timavilov.com/tags/cloth/</link>
     <description>Recent content in Cloth on T|A</description>
     <image>
       <title>T|A</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://timavilov.com/images/papermod-cover.png</url>
+      <link>https://timavilov.com/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Mar 2025 14:42:25 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timavilov.com/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MMORPGs From BE Eng Perspective</title>
-      <link>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</link>
+      <title>NOTES: MMORPGs From BE Eng Perspective</title>
+      <link>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</guid>
+      <guid>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</guid>
       <description>A technical, continuous train-of-thought on building an MMO backend: edge computing, server topologies and authority, clock sync, spatial partitioning with quadtrees, and a deep dive into cloth sync.</description>
     </item>
   </channel>
