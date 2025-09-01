@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://timavilov.com/tags/astronomy/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/cnn/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/computer-vision/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/deep-learning/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/first-project/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/galaxy-zoo/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/kaggle/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/notes/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/posts/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/posts/galaxy-zooing-my-first-cnn/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/pytorch/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/vgg/</loc>
+    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
+  </url><url>
     <loc>https://timavilov.com/tags/backend/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
@@ -20,22 +62,10 @@
     <loc>https://timavilov.com/tags/netcode/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>https://timavilov.com/tags/notes/</loc>
-    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
-  </url><url>
     <loc>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>https://timavilov.com/posts/</loc>
-    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
-  </url><url>
     <loc>https://timavilov.com/tags/spatial-partitioning/</loc>
-    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
-  </url><url>
-    <loc>https://timavilov.com/</loc>
-    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
-  </url><url>
-    <loc>https://timavilov.com/tags/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
     <loc>https://timavilov.com/tags/datadog-migration/</loc>
