@@ -4,7 +4,7 @@ title: "PROJECT: Galaxy Zooing my first CNN"
 date: 2025-05-28T08:15:04-03:00
 draft: false
 description: "VGG architectures, galaxy morphology classification, cross-validation, and way too much time spent on data augmentation"
-tags: ["notes", "deep-learning", "computer-vision", "pytorch", "cnn", "astronomy", "galaxy-zoo", "first-project", "vgg", "kaggle"]
+tags: [ "deep-learning", "computer-vision", "pytorch", "cnn", "astronomy", "galaxy-zoo", "project", "vgg", "kaggle"]
 author: "Me" # For multiple authors, use: ["Me", "You"]
 
 # Metadata & SEO
