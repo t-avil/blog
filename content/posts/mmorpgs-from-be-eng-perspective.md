@@ -33,7 +33,7 @@ editPost:
   URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
----
+--------------------
 
 Building an MMORPG backend is like building a tiny distributed country where every player is a citizen, every NPC a bureaucrat, and latency is the weather. You design for scale, consistency, fairness, and - most importantly - fun. Below is one continuous, slightly nerdy walkthrough of the system-level decisions I’d make (and the gotchas I’d sweat about at 3 AM): edge compute, server topologies and authority, clock synchronization, spatial partitioning with quadtrees, and a focused deep-dive on cloth synchronization (yes, that ugly yet sexy problem).
 

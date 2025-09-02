@@ -33,7 +33,7 @@ editPost:
   URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
----
+--------------------
 
 
 

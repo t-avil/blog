@@ -33,7 +33,7 @@ editPost:
   URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
----
+--------------------
 
 I learned that migrating off a SaaS like Datadog is less a single migration task and more a personality transplant for your infra team. You’re trading a polished one-click thing for a constellation of components that each have opinions, needs, and a flair for dramatic failure modes. But if you survive the awkward first semester, you end up with vendor-neutral observability, much cheaper S3 storage bills, and dashboards you actually control.
 
