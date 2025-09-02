@@ -11,7 +11,7 @@ author: "Me"
 
 # Metadata & SEO
 
-canonicalURL: "[https://canonical.url/to/page](https://canonical.url/to/page)"
+canonicalURL: "https://canonical.url/to/page"
 hidemeta: false
 searchHidden: true
 

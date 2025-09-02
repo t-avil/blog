@@ -2,179 +2,179 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/astronomy/</loc>
+    <loc>https://timavilov.com/tags/ai/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/distributed-systems/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/elasticsearch/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/fuzzy/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/notes/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/posts/searching-the-unsearchable/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/posts/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/search/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/system-design/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/vectors/</loc>
+    <lastmod>2025-09-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>https://timavilov.com/tags/astronomy/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cnn/</loc>
+    <loc>https://timavilov.com/tags/cnn/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
+    <loc>https://timavilov.com/tags/computer-vision/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <loc>https://timavilov.com/tags/deep-learning/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/galaxy-zoo/</loc>
+    <loc>https://timavilov.com/tags/galaxy-zoo/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kaggle/</loc>
+    <loc>https://timavilov.com/tags/kaggle/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://timavilov.com/tags/project/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/project/</loc>
+    <loc>https://timavilov.com/posts/galaxy-zooing-my-first-cnn/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/galaxy-zooing-my-first-cnn/</loc>
+    <loc>https://timavilov.com/tags/pytorch/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pytorch/</loc>
+    <loc>https://timavilov.com/tags/vgg/</loc>
     <lastmod>2025-05-28T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vgg/</loc>
-    <lastmod>2025-05-28T08:15:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/backend/</loc>
+    <loc>https://timavilov.com/tags/backend/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cloth/</loc>
+    <loc>https://timavilov.com/tags/cloth/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/edge-computing/</loc>
+    <loc>https://timavilov.com/tags/edge-computing/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/game-dev/</loc>
+    <loc>https://timavilov.com/tags/game-dev/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mmorpg/</loc>
+    <loc>https://timavilov.com/tags/mmorpg/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/netcode/</loc>
+    <loc>https://timavilov.com/tags/netcode/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notes/</loc>
+    <loc>https://timavilov.com/posts/mmorpgs-from-be-eng-perspective/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mmorpgs-from-be-eng-perspective/</loc>
+    <loc>https://timavilov.com/tags/spatial-partitioning/</loc>
     <lastmod>2025-03-05T14:42:25-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spatial-partitioning/</loc>
-    <lastmod>2025-03-05T14:42:25-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/datadog-migration/</loc>
+    <loc>https://timavilov.com/tags/datadog-migration/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://timavilov.com/tags/golang/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/grafana/</loc>
+    <loc>https://timavilov.com/tags/grafana/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/loki/</loc>
+    <loc>https://timavilov.com/tags/loki/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mimir/</loc>
+    <loc>https://timavilov.com/tags/mimir/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lgtm-stack-or-die/</loc>
+    <loc>https://timavilov.com/posts/lgtm-stack-or-die/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/observability/</loc>
+    <loc>https://timavilov.com/tags/observability/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/opentelemetry/</loc>
+    <loc>https://timavilov.com/tags/opentelemetry/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/phlare/</loc>
+    <loc>https://timavilov.com/tags/phlare/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/prometheus/</loc>
+    <loc>https://timavilov.com/tags/prometheus/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tempo/</loc>
+    <loc>https://timavilov.com/tags/tempo/</loc>
     <lastmod>2025-01-13T08:15:04-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/batch/</loc>
+    <loc>https://timavilov.com/tags/batch/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cdc/</loc>
+    <loc>https://timavilov.com/tags/cdc/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-engineering/</loc>
+    <loc>https://timavilov.com/tags/data-engineering/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-warehouse/</loc>
+    <loc>https://timavilov.com/tags/data-warehouse/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dbt/</loc>
+    <loc>https://timavilov.com/tags/dbt/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/end2ending-data-warehouse/</loc>
+    <loc>https://timavilov.com/posts/end2ending-data-warehouse/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/streaming/</loc>
+    <loc>https://timavilov.com/tags/streaming/</loc>
     <lastmod>2024-10-01T23:23:37-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/system-design/</loc>
-    <lastmod>2024-10-01T23:23:37-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://timavilov.com/tags/compliance/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/compliance/</loc>
+    <loc>https://timavilov.com/tags/devops/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://timavilov.com/tags/fintech/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/distributed-systems/</loc>
+    <loc>https://timavilov.com/tags/hipaa/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/elasticsearch/</loc>
+    <loc>https://timavilov.com/tags/lessons/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fintech/</loc>
+    <loc>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fuzzy/</loc>
+    <loc>https://timavilov.com/tags/soc2/</loc>
     <lastmod>2024-08-25T07:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hipaa/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+    <loc>https://timavilov.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/lessons/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+    <loc>https://timavilov.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/searching-the-unsearchable/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+    <loc>https://timavilov.com/chronicles/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
+    <loc>https://timavilov.com/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/search/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/soc2/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vectors/</loc>
-    <lastmod>2024-08-25T07:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/chronicles/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://timavilov.com/series/</loc>
   </url>
 </urlset>

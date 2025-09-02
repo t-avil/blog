@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Devops on T|A</title>
-    <link>http://localhost:1313/tags/devops/</link>
+    <link>https://timavilov.com/tags/devops/</link>
     <description>Recent content in Devops on T|A</description>
     <image>
       <title>T|A</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://timavilov.com/images/papermod-cover.png</url>
+      <link>https://timavilov.com/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Aug 2024 07:52:54 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timavilov.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NOTES: Tail of Two Regulation and Compliance</title>
-      <link>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</link>
+      <link>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>http://localhost:1313/posts/tail-of-two-regulation-and-compliance/</guid>
+      <guid>https://timavilov.com/posts/tail-of-two-regulation-and-compliance/</guid>
       <description>Notes from building fintech features and surviving real audits.</description>
     </item>
   </channel>
