@@ -3,7 +3,7 @@
 # Basic info
 
 title: "NOTES: Searching the unsearchable"
-date: 2025-09-01T04:52:54-07:00
+date: 2025-08-01T04:52:54-07:00
 draft: false
 description: "Levenshtein automata, inverted indexes, BM25, segment merges, ANN vectors, CDC pipelines, and why Elasticsearch is basically three PhDs stapled together with JSON."
 tags: ["notes", "elasticsearch", "search", "system-design", "distributed-systems", "vectors", "fuzzy", "ai" ]

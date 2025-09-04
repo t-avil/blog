@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Opentelemetry on T|A</title>
-    <link>https://timavilov.com/tags/opentelemetry/</link>
+    <link>http://localhost:1313/tags/opentelemetry/</link>
     <description>Recent content in Opentelemetry on T|A</description>
     <image>
       <title>T|A</title>
-      <url>https://timavilov.com/images/papermod-cover.png</url>
-      <link>https://timavilov.com/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Jan 2025 08:15:04 -0300</lastBuildDate>
-    <atom:link href="https://timavilov.com/tags/opentelemetry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/opentelemetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NOTES: Lgtm Stack or Die</title>
-      <link>https://timavilov.com/posts/lgtm-stack-or-die/</link>
+      <link>http://localhost:1313/posts/lgtm-stack-or-die/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/posts/lgtm-stack-or-die/</guid>
+      <guid>http://localhost:1313/posts/lgtm-stack-or-die/</guid>
       <description>Alloy, Mimir, Loki, Tempo, Phlare, S3, and a lot of hair-pulling</description>
     </item>
   </channel>

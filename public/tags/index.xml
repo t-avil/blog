@@ -2,337 +2,421 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on T|A</title>
-    <link>https://timavilov.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on T|A</description>
     <image>
       <title>T|A</title>
-      <url>https://timavilov.com/images/papermod-cover.png</url>
-      <link>https://timavilov.com/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Sep 2025 04:52:54 -0700</lastBuildDate>
-    <atom:link href="https://timavilov.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Sep 2025 02:21:17 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
-      <link>https://timavilov.com/tags/ai/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/ai/</guid>
+      <title>Embedded Systems</title>
+      <link>http://localhost:1313/tags/embedded-systems/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/embedded-systems/</guid>
       <description></description>
     </item>
     <item>
-      <title>Distributed-Systems</title>
-      <link>https://timavilov.com/tags/distributed-systems/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/distributed-systems/</guid>
+      <title>Encryption Performance</title>
+      <link>http://localhost:1313/tags/encryption-performance/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/encryption-performance/</guid>
       <description></description>
     </item>
     <item>
-      <title>Elasticsearch</title>
-      <link>https://timavilov.com/tags/elasticsearch/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/elasticsearch/</guid>
+      <title>Esp32</title>
+      <link>http://localhost:1313/tags/esp32/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
-      <title>Fuzzy</title>
-      <link>https://timavilov.com/tags/fuzzy/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/fuzzy/</guid>
+      <title>Iot Security</title>
+      <link>http://localhost:1313/tags/iot-security/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/iot-security/</guid>
       <description></description>
     </item>
     <item>
-      <title>Notes</title>
-      <link>https://timavilov.com/tags/notes/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/notes/</guid>
+      <title>Kyber</title>
+      <link>http://localhost:1313/tags/kyber/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/kyber/</guid>
       <description></description>
     </item>
     <item>
-      <title>Search</title>
-      <link>https://timavilov.com/tags/search/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/search/</guid>
+      <title>Lora</title>
+      <link>http://localhost:1313/tags/lora/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/lora/</guid>
       <description></description>
     </item>
     <item>
-      <title>System-Design</title>
-      <link>https://timavilov.com/tags/system-design/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/system-design/</guid>
+      <title>Mesh Networks</title>
+      <link>http://localhost:1313/tags/mesh-networks/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/mesh-networks/</guid>
       <description></description>
     </item>
     <item>
-      <title>Vectors</title>
-      <link>https://timavilov.com/tags/vectors/</link>
-      <pubDate>Mon, 01 Sep 2025 04:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/vectors/</guid>
+      <title>Meshtastic</title>
+      <link>http://localhost:1313/tags/meshtastic/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/meshtastic/</guid>
       <description></description>
     </item>
     <item>
-      <title>Astronomy</title>
-      <link>https://timavilov.com/tags/astronomy/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/astronomy/</guid>
+      <title>Off-Grid Communication</title>
+      <link>http://localhost:1313/tags/off-grid-communication/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/off-grid-communication/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cnn</title>
-      <link>https://timavilov.com/tags/cnn/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/cnn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Computer-Vision</title>
-      <link>https://timavilov.com/tags/computer-vision/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deep-Learning</title>
-      <link>https://timavilov.com/tags/deep-learning/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Galaxy-Zoo</title>
-      <link>https://timavilov.com/tags/galaxy-zoo/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/galaxy-zoo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kaggle</title>
-      <link>https://timavilov.com/tags/kaggle/</link>
-      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/kaggle/</guid>
+      <title>Post-Quantum Cryptography</title>
+      <link>http://localhost:1313/tags/post-quantum-cryptography/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/post-quantum-cryptography/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>https://timavilov.com/tags/project/</link>
+      <link>http://localhost:1313/tags/project/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum-Safe</title>
+      <link>http://localhost:1313/tags/quantum-safe/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/quantum-safe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resource-Constrained Devices</title>
+      <link>http://localhost:1313/tags/resource-constrained-devices/</link>
+      <pubDate>Thu, 04 Sep 2025 02:21:17 -0700</pubDate>
+      <guid>http://localhost:1313/tags/resource-constrained-devices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>http://localhost:1313/tags/distributed-systems/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticsearch</title>
+      <link>http://localhost:1313/tags/elasticsearch/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fuzzy</title>
+      <link>http://localhost:1313/tags/fuzzy/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/fuzzy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/tags/search/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:1313/tags/system-design/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vectors</title>
+      <link>http://localhost:1313/tags/vectors/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/vectors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Astronomy</title>
+      <link>http://localhost:1313/tags/astronomy/</link>
       <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/project/</guid>
+      <guid>http://localhost:1313/tags/astronomy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cnn</title>
+      <link>http://localhost:1313/tags/cnn/</link>
+      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
+      <guid>http://localhost:1313/tags/cnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer-Vision</title>
+      <link>http://localhost:1313/tags/computer-vision/</link>
+      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
+      <guid>http://localhost:1313/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep-Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Galaxy-Zoo</title>
+      <link>http://localhost:1313/tags/galaxy-zoo/</link>
+      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
+      <guid>http://localhost:1313/tags/galaxy-zoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kaggle</title>
+      <link>http://localhost:1313/tags/kaggle/</link>
+      <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
+      <guid>http://localhost:1313/tags/kaggle/</guid>
       <description></description>
     </item>
     <item>
       <title>Pytorch</title>
-      <link>https://timavilov.com/tags/pytorch/</link>
+      <link>http://localhost:1313/tags/pytorch/</link>
       <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/pytorch/</guid>
+      <guid>http://localhost:1313/tags/pytorch/</guid>
       <description></description>
     </item>
     <item>
       <title>Vgg</title>
-      <link>https://timavilov.com/tags/vgg/</link>
+      <link>http://localhost:1313/tags/vgg/</link>
       <pubDate>Wed, 28 May 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/vgg/</guid>
+      <guid>http://localhost:1313/tags/vgg/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
-      <link>https://timavilov.com/tags/backend/</link>
+      <link>http://localhost:1313/tags/backend/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/backend/</guid>
+      <guid>http://localhost:1313/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloth</title>
-      <link>https://timavilov.com/tags/cloth/</link>
+      <link>http://localhost:1313/tags/cloth/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/cloth/</guid>
+      <guid>http://localhost:1313/tags/cloth/</guid>
       <description></description>
     </item>
     <item>
       <title>Edge-Computing</title>
-      <link>https://timavilov.com/tags/edge-computing/</link>
+      <link>http://localhost:1313/tags/edge-computing/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/edge-computing/</guid>
+      <guid>http://localhost:1313/tags/edge-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Game-Dev</title>
-      <link>https://timavilov.com/tags/game-dev/</link>
+      <link>http://localhost:1313/tags/game-dev/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/game-dev/</guid>
+      <guid>http://localhost:1313/tags/game-dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Mmorpg</title>
-      <link>https://timavilov.com/tags/mmorpg/</link>
+      <link>http://localhost:1313/tags/mmorpg/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/mmorpg/</guid>
+      <guid>http://localhost:1313/tags/mmorpg/</guid>
       <description></description>
     </item>
     <item>
       <title>Netcode</title>
-      <link>https://timavilov.com/tags/netcode/</link>
+      <link>http://localhost:1313/tags/netcode/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/netcode/</guid>
+      <guid>http://localhost:1313/tags/netcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial-Partitioning</title>
-      <link>https://timavilov.com/tags/spatial-partitioning/</link>
+      <link>http://localhost:1313/tags/spatial-partitioning/</link>
       <pubDate>Wed, 05 Mar 2025 14:42:25 -0700</pubDate>
-      <guid>https://timavilov.com/tags/spatial-partitioning/</guid>
+      <guid>http://localhost:1313/tags/spatial-partitioning/</guid>
       <description></description>
     </item>
     <item>
       <title>Datadog-Migration</title>
-      <link>https://timavilov.com/tags/datadog-migration/</link>
+      <link>http://localhost:1313/tags/datadog-migration/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/datadog-migration/</guid>
+      <guid>http://localhost:1313/tags/datadog-migration/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://timavilov.com/tags/golang/</link>
+      <link>http://localhost:1313/tags/golang/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/golang/</guid>
+      <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Grafana</title>
-      <link>https://timavilov.com/tags/grafana/</link>
+      <link>http://localhost:1313/tags/grafana/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/grafana/</guid>
+      <guid>http://localhost:1313/tags/grafana/</guid>
       <description></description>
     </item>
     <item>
       <title>Loki</title>
-      <link>https://timavilov.com/tags/loki/</link>
+      <link>http://localhost:1313/tags/loki/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/loki/</guid>
+      <guid>http://localhost:1313/tags/loki/</guid>
       <description></description>
     </item>
     <item>
       <title>Mimir</title>
-      <link>https://timavilov.com/tags/mimir/</link>
+      <link>http://localhost:1313/tags/mimir/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/mimir/</guid>
+      <guid>http://localhost:1313/tags/mimir/</guid>
       <description></description>
     </item>
     <item>
       <title>Observability</title>
-      <link>https://timavilov.com/tags/observability/</link>
+      <link>http://localhost:1313/tags/observability/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/observability/</guid>
+      <guid>http://localhost:1313/tags/observability/</guid>
       <description></description>
     </item>
     <item>
       <title>Opentelemetry</title>
-      <link>https://timavilov.com/tags/opentelemetry/</link>
+      <link>http://localhost:1313/tags/opentelemetry/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/opentelemetry/</guid>
+      <guid>http://localhost:1313/tags/opentelemetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Phlare</title>
-      <link>https://timavilov.com/tags/phlare/</link>
+      <link>http://localhost:1313/tags/phlare/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/phlare/</guid>
+      <guid>http://localhost:1313/tags/phlare/</guid>
       <description></description>
     </item>
     <item>
       <title>Prometheus</title>
-      <link>https://timavilov.com/tags/prometheus/</link>
+      <link>http://localhost:1313/tags/prometheus/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/prometheus/</guid>
+      <guid>http://localhost:1313/tags/prometheus/</guid>
       <description></description>
     </item>
     <item>
       <title>Tempo</title>
-      <link>https://timavilov.com/tags/tempo/</link>
+      <link>http://localhost:1313/tags/tempo/</link>
       <pubDate>Mon, 13 Jan 2025 08:15:04 -0300</pubDate>
-      <guid>https://timavilov.com/tags/tempo/</guid>
+      <guid>http://localhost:1313/tags/tempo/</guid>
       <description></description>
     </item>
     <item>
       <title>Batch</title>
-      <link>https://timavilov.com/tags/batch/</link>
+      <link>http://localhost:1313/tags/batch/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/batch/</guid>
+      <guid>http://localhost:1313/tags/batch/</guid>
       <description></description>
     </item>
     <item>
       <title>CDC</title>
-      <link>https://timavilov.com/tags/cdc/</link>
+      <link>http://localhost:1313/tags/cdc/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/cdc/</guid>
+      <guid>http://localhost:1313/tags/cdc/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Engineering</title>
-      <link>https://timavilov.com/tags/data-engineering/</link>
+      <link>http://localhost:1313/tags/data-engineering/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/data-engineering/</guid>
+      <guid>http://localhost:1313/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Warehouse</title>
-      <link>https://timavilov.com/tags/data-warehouse/</link>
+      <link>http://localhost:1313/tags/data-warehouse/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/data-warehouse/</guid>
+      <guid>http://localhost:1313/tags/data-warehouse/</guid>
       <description></description>
     </item>
     <item>
       <title>Dbt</title>
-      <link>https://timavilov.com/tags/dbt/</link>
+      <link>http://localhost:1313/tags/dbt/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/dbt/</guid>
+      <guid>http://localhost:1313/tags/dbt/</guid>
       <description></description>
     </item>
     <item>
       <title>Streaming</title>
-      <link>https://timavilov.com/tags/streaming/</link>
+      <link>http://localhost:1313/tags/streaming/</link>
       <pubDate>Tue, 01 Oct 2024 23:23:37 -0700</pubDate>
-      <guid>https://timavilov.com/tags/streaming/</guid>
+      <guid>http://localhost:1313/tags/streaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance</title>
-      <link>https://timavilov.com/tags/compliance/</link>
+      <link>http://localhost:1313/tags/compliance/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/compliance/</guid>
+      <guid>http://localhost:1313/tags/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://timavilov.com/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Fintech</title>
-      <link>https://timavilov.com/tags/fintech/</link>
+      <link>http://localhost:1313/tags/fintech/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/fintech/</guid>
+      <guid>http://localhost:1313/tags/fintech/</guid>
       <description></description>
     </item>
     <item>
       <title>HIPAA</title>
-      <link>https://timavilov.com/tags/hipaa/</link>
+      <link>http://localhost:1313/tags/hipaa/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/hipaa/</guid>
+      <guid>http://localhost:1313/tags/hipaa/</guid>
       <description></description>
     </item>
     <item>
       <title>Lessons</title>
-      <link>https://timavilov.com/tags/lessons/</link>
+      <link>http://localhost:1313/tags/lessons/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/lessons/</guid>
+      <guid>http://localhost:1313/tags/lessons/</guid>
       <description></description>
     </item>
     <item>
       <title>SOC2</title>
-      <link>https://timavilov.com/tags/soc2/</link>
+      <link>http://localhost:1313/tags/soc2/</link>
       <pubDate>Sun, 25 Aug 2024 07:52:54 -0700</pubDate>
-      <guid>https://timavilov.com/tags/soc2/</guid>
+      <guid>http://localhost:1313/tags/soc2/</guid>
       <description></description>
     </item>
   </channel>
