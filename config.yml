@@ -43,7 +43,7 @@ languages:
           url: tags/
           weight: 10
         - name: Github
-          url: https://github.com/CrustularumAmator
+          url: https://github.com/t-avil
 
 outputs:
   home:
@@ -95,7 +95,7 @@ params:
         url: "mailto:timchick.ua@gmail.com"
 
   editPost:
-    URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
+    URL: "https://github.com/t-avil/blog/tree/main/content"
     Text: "Suggest Changes" 
     appendFilePath: true 
 

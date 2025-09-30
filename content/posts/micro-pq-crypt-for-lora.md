@@ -44,7 +44,7 @@ disableShare: false
 
 # Edit link
 editPost:
-  URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
+  URL: "https://github.com/t-avil/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
 ---
@@ -241,4 +241,4 @@ This work is a step toward a future where mesh communications stay private even 
 
 ---
 
-*Full code available on this [GitHub branch](https://github.com/CrustularumAmator/meshtastic-firmware-pq/tree/pq-introduction), and way too many comments explaining design decisions. Because if you're going to overthink a project, you might as well document the overthinking process.*
+*Full code available on this [GitHub branch](https://github.com/t-avil/meshtastic-firmware-pq/tree/pq-introduction), and way too many comments explaining design decisions. Because if you're going to overthink a project, you might as well document the overthinking process.*

@@ -30,7 +30,7 @@ disableShare: false
 
 # Edit link
 editPost:
-  URL: "https://github.com/CrustularumAmator/blog/tree/main/content"
+  URL: "https://github.com/t-avil/blog/tree/main/content"
   Text: "Suggest Changes"   # edit link text
   appendFilePath: true      # append file path to the edit link
 --------------------
@@ -105,7 +105,7 @@ Most importantly: when your validation loss curves look good and your model pred
 
 ---
 
-*Full code available on [GitHub Gist](https://gist.github.com/CrustularumAmator/900505afe938f2af9ae31af57ee20d52), and way too many comments explaining design decisions. Because if you're going to overthink a project, you might as well document the overthinking process.*
+*Full code available on [GitHub Gist](https://gist.github.com/t-avil/900505afe938f2af9ae31af57ee20d52), and way too many comments explaining design decisions. Because if you're going to overthink a project, you might as well document the overthinking process.*
 
 *But also a preview is visible here*
-{{< gist CrustularumAmator 900505afe938f2af9ae31af57ee20d52 >}}
+{{< gist t-avil 900505afe938f2af9ae31af57ee20d52 >}}
