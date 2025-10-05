@@ -11,8 +11,50 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 23:23:37 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 14:30:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containers</title>
+      <link>http://localhost:1313/tags/containers/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>http://localhost:1313/tags/distributed-systems/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtualization</title>
+      <link>http://localhost:1313/tags/virtualization/</link>
+      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/virtualization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Compilers</title>
       <link>http://localhost:1313/tags/compilers/</link>
@@ -21,24 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>Distributed-Systems</title>
-      <link>http://localhost:1313/tags/distributed-systems/</link>
-      <pubDate>Tue, 30 Sep 2025 23:23:37 -0700</pubDate>
-      <guid>http://localhost:1313/tags/distributed-systems/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Machine-Learning</title>
       <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Tue, 30 Sep 2025 23:23:37 -0700</pubDate>
       <guid>http://localhost:1313/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>http://localhost:1313/tags/notes/</link>
-      <pubDate>Tue, 30 Sep 2025 23:23:37 -0700</pubDate>
-      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
     <item>
