@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NOTES: GPU Architecture, TVM, and Triton</title>
-      <link>http://localhost:1313/[https:/github.com/t-avil/blog/tree/main/content](https:/github.com/t-avil/blog/tree/main/content)</link>
+      <link>http://localhost:1313/posts/gpu-tvm-triton/</link>
       <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/[https:/github.com/t-avil/blog/tree/main/content](https:/github.com/t-avil/blog/tree/main/content)</guid>
+      <guid>http://localhost:1313/posts/gpu-tvm-triton/</guid>
       <description>My reading notes on GPU hardware, TVM compilation, and Triton JIT for efficient tensor computation.</description>
     </item>
     <item>

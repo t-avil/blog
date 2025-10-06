@@ -4,31 +4,35 @@ date: 2025-10-06T14:00:00-07:00
 draft: false
 description: "My reading notes on GPU hardware, TVM compilation, and Triton JIT for efficient tensor computation."
 tags: ["notes","machine-learning","gpu","compilers","tvm","triton"]
-author: "Me"
+author: "Me" # For multiple authors, use: ["Me", "You"]
 
-canonicalURL: "[https://canonical.url/to/page](https://canonical.url/to/page)"
+# Metadata & SEO
+canonicalURL: "https://canonical.url/to/page"
 hidemeta: false
 searchHidden: true
 
+# Table of contents
 showToc: true
 TocOpen: false
 UseHugoToc: true
 
+# Post features
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 comments: false
 
-disableHLJS: false
+# Syntax highlighting
+disableHLJS: false # set true to disable Highlight.js
 disableShare: false
 
+# Edit link
 editPost:
-URL: "[https://github.com/t-avil/blog/tree/main/content](https://github.com/t-avil/blog/tree/main/content)"
-Text: "Suggest Changes"
-appendFilePath: true
-
----
+  URL: "https://github.com/t-avil/blog/tree/main/content"
+  Text: "Suggest Changes"   # edit link text
+  appendFilePath: true      # append file path to the edit link
+--------------------
 
 If TensorFlow showed us how to scale ML across entire data centers, and PyTorch 2.0 showed us how to compile dynamic Python code, GPUs and compiler stacks like TVM and Triton show us how to squeeze the absolute last drop of performance out of hardware. This post is my attempt to tie together GPU architecture, TVM’s tensor-level compilation, and Triton’s clever tiling JIT strategy, all in one nerdy, slightly dorky package.
 
@@ -67,7 +71,7 @@ So, global memory is like a shared kitchen, while shared memory and registers ar
  
 ## TVM: From Computation Graphs to Hardware Execution
 
-TVM starts by taking in an **IR**, basically a computation graph that’s detached from any specific execution schedule. It runs optimizations over this graph, then compiles it for any target hardware.
+[TVM](https://tvm.apache.org) starts by taking in an **IR**, basically a computation graph that’s detached from any specific execution schedule. It runs optimizations over this graph, then compiles it for any target hardware.
 
 Before actual code generation, the model is converted into **Tensor Expressions (TE)** - the highest level of abstraction where even scalar operations are represented as tensor computations. From there, TVM progressively lowers the code down to hardware-native operations:
 
@@ -95,10 +99,11 @@ Finding the most optimal execution schedule isn’t straightforward - the search
 
 Because of this, TVM uses **machine-learning-based autotuning** to predict which optimization combinations will give the best runtime, constantly refining its schedule through iterative search and real hardware feedback.
 
-**Conceptually:** 
-TVM receives a graph of computation, optimizes it, converts it into imperative tensor operations with a default schedule (how to unwrap and execute the loops), and fuses those two together.
+
+**Conceptually:** TVM receives a graph of computation, optimizes it, converts it into imperative tensor operations with a default schedule (how to unwrap and execute the loops), and fuses those two together.
 Then it compiles and runs the generated code.
 A background ML tuner observes runtime performance, tweaks the schedule parameters, re-fuses and recompiles, and repeats - gradually learning about the underlying hardware (treated as a black box) and version-controlling the best-found schedule.
+
 ---
 
 ## Triton: Tiles, JIT, and Memory Locality
