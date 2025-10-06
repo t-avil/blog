@@ -11,8 +11,50 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Oct 2025 14:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 14:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compilers</title>
+      <link>http://localhost:1313/tags/compilers/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/compilers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpu</title>
+      <link>http://localhost:1313/tags/gpu/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/gpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triton</title>
+      <link>http://localhost:1313/tags/triton/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/triton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tvm</title>
+      <link>http://localhost:1313/tags/tvm/</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/tvm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Containers</title>
       <link>http://localhost:1313/tags/containers/</link>
@@ -42,31 +84,10 @@
       <description></description>
     </item>
     <item>
-      <title>Notes</title>
-      <link>http://localhost:1313/tags/notes/</link>
-      <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/notes/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Virtualization</title>
       <link>http://localhost:1313/tags/virtualization/</link>
       <pubDate>Sun, 05 Oct 2025 14:30:00 -0700</pubDate>
       <guid>http://localhost:1313/tags/virtualization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Compilers</title>
-      <link>http://localhost:1313/tags/compilers/</link>
-      <pubDate>Tue, 30 Sep 2025 23:23:37 -0700</pubDate>
-      <guid>http://localhost:1313/tags/compilers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine-Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
-      <pubDate>Tue, 30 Sep 2025 23:23:37 -0700</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>

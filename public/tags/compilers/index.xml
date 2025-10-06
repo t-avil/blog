@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 23:23:37 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 14:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/compilers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NOTES: GPU Architecture, TVM, and Triton</title>
+      <link>http://localhost:1313/[https:/github.com/t-avil/blog/tree/main/content](https:/github.com/t-avil/blog/tree/main/content)</link>
+      <pubDate>Mon, 06 Oct 2025 14:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/[https:/github.com/t-avil/blog/tree/main/content](https:/github.com/t-avil/blog/tree/main/content)</guid>
+      <description>My reading notes on GPU hardware, TVM compilation, and Triton JIT for efficient tensor computation.</description>
+    </item>
     <item>
       <title>NOTES: TensorFlow, TorchDynamo, and TorchInductor</title>
       <link>http://localhost:1313/posts/tensering-my-torch/</link>
