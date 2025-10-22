@@ -54,15 +54,15 @@ Suppose we have **2 different kernels**, each with 51 blocks, and **100 SMs**. M
 | ---------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------- |
 | 1-cycle / fast               | add, sub, fadd, fmul, fma, bitwise ops (and, or, xor), compare (cmp) | 1 cycle per warp                                                  | Registers; fastest, no memory dependency |
 | Slow / multi-cycle           | idiv, fdiv, sqrt, rsqrt                                              | Multiple cycles per warp, pipelined                               | Registers; some compute-bound            |
-| Global memory                | ld.global, st.global                                                 | High latency (~300–600 cycles) per warp; scheduler switches warps | DRAM                                     |
-| Shared memory                | ld.shared, st.shared                                                 | Low latency (~1–10 cycles) per warp; can bank conflict            | SM-local shared memory                   |
+| Global memory                | ld.global, st.global                                                 | High latency (~300-600 cycles) per warp; scheduler switches warps | DRAM                                     |
+| Shared memory                | ld.shared, st.shared                                                 | Low latency (~1-10 cycles) per warp; can bank conflict            | SM-local shared memory                   |
 | Texture / special units      | ld.texture, atomic                                                   | Depends on unit; pipelined                                        | Read-only caches / special memory        |
 | Matrix multiply / tensor ops | wmma, dp4a, fma                                                      | 1 cycle throughput per warp on tensor cores                       | Registers or shared memory for operands  |
 
 **Key notes:**
 
-* **Global memory:** shared across kernels; multiple kernels can read/write the same chunk simultaneously. Latency is high (~300–600 cycles).
-* **Shared memory:** private to each block/SM; fast (~1–10 cycles).
+* **Global memory:** shared across kernels; multiple kernels can read/write the same chunk simultaneously. Latency is high (~300-600 cycles).
+* **Shared memory:** private to each block/SM; fast (~1-10 cycles).
 * **Registers:** private to each thread; fastest (<1 cycle).
 
 So, global memory is like a shared kitchen, while shared memory and registers are your private meal prep stations.

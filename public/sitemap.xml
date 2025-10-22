@@ -119,10 +119,28 @@
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/data-parallel/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/distributed-training/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/elasticsearch/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fuzzy/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/large-models/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/memory-optimization/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/model-parallel/</loc>
+    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/model-training-partitioning/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/searching-the-unsearchable/</loc>

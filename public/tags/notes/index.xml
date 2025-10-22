@@ -42,6 +42,13 @@
       <description>My reading notes on two generations of ML system papers: TensorFlow’s distributed execution model and PyTorch 2.0’s compiler stack (TorchDynamo &#43; TorchInductor).</description>
     </item>
     <item>
+      <title>NOTES: Exploring large-scale distributed training systems</title>
+      <link>http://localhost:1313/posts/model-training-partitioning/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/posts/model-training-partitioning/</guid>
+      <description>Summary of DDP, FlexFlow, ZeRO, FSDP, activation checkpointing and ZeRO-Infinity for GPU/ML inference and training systems.</description>
+    </item>
+    <item>
       <title>NOTES: Searching the unsearchable</title>
       <link>http://localhost:1313/posts/searching-the-unsearchable/</link>
       <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>

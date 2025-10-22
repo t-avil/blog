@@ -231,6 +231,20 @@
       <description></description>
     </item>
     <item>
+      <title>Data-Parallel</title>
+      <link>http://localhost:1313/tags/data-parallel/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/data-parallel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Training</title>
+      <link>http://localhost:1313/tags/distributed-training/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/distributed-training/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Elasticsearch</title>
       <link>http://localhost:1313/tags/elasticsearch/</link>
       <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
@@ -242,6 +256,27 @@
       <link>http://localhost:1313/tags/fuzzy/</link>
       <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
       <guid>http://localhost:1313/tags/fuzzy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Large-Models</title>
+      <link>http://localhost:1313/tags/large-models/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/large-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory-Optimization</title>
+      <link>http://localhost:1313/tags/memory-optimization/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/memory-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model-Parallel</title>
+      <link>http://localhost:1313/tags/model-parallel/</link>
+      <pubDate>Fri, 01 Aug 2025 04:52:54 -0700</pubDate>
+      <guid>http://localhost:1313/tags/model-parallel/</guid>
       <description></description>
     </item>
     <item>
