@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/data-parallel/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/distributed-training/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/large-models/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/memory-optimization/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/model-parallel/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/notes/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/model-training-partitioning/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-21T04:52:54-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/andromeda/</loc>
     <lastmod>2025-10-10T14:00:00-07:00</lastmod>
   </url><url>
@@ -11,22 +41,10 @@
     <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-10-10T14:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notes/</loc>
-    <lastmod>2025-10-10T14:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/virtual-spiders/</loc>
     <lastmod>2025-10-10T14:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-10T14:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/snap/</loc>
-    <lastmod>2025-10-10T14:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-10T14:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-10T14:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/virtualization/</loc>
@@ -119,28 +137,10 @@
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-parallel/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/distributed-training/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/elasticsearch/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fuzzy/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/large-models/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/memory-optimization/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/model-parallel/</loc>
-    <lastmod>2025-08-01T04:52:54-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/model-training-partitioning/</loc>
     <lastmod>2025-08-01T04:52:54-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/searching-the-unsearchable/</loc>
