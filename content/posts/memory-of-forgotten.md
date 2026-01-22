@@ -1,7 +1,7 @@
 ---
 # Basic info
 title: "NOTES: Memory of Forgotten"
-date: 2026-01-21T23:20:02-08:00
+date: 2025-12-21T23:20:02-08:00
 draft: false
 description: "From registers to cloud-scale storage: deep notes on memory, latency, hierarchy, and systems research."
 tags: ["notes","memory","architecture","numa","storage","systems"]
