@@ -168,6 +168,13 @@ Hock et al., *SNAP: A Microkernel Approach to Cloud Network Virtualization*, USE
 
 ---
 
+## 5.5. Nitro: AWS approach with custom NIC
+
+AWS takes a fundamentally different approach with the Nitro System, providing hardware-enforced isolation for EC2 instances through custom NIC. Nitro Cards handle networking, storage, and management functions, while the Nitro Security Chip establishes a hardware root of trust, verifies firmware integrity, and ensures secure boot - basically most of the stuff needed for HAVEN/INTEL CGX access control. The remaining Nitro Hypervisor is deliberately minimal, focusing solely on CPU and memory allocation and mapping I/O virtual functions, reducing the attack surface and minimizing interference between tenants. By pinning CPU cores and memory exclusively to individual instances and delegating I/O to hardware, Nitro provides near bare-metal performance with strong isolation guarantees. Networking is handled via the Elastic Network Adapter (ENA) on dedicated Nitro hardware, eliminating shared software dataplanes and reducing noisy neighbor effects. This architecture also enables advanced features like Nitro Enclaves, which create isolated execution environments within an instance for sensitive workloads, providing memory and vCPU isolation without network connectivity and preventing even root access from reaching the enclave.
+
+
+---
+
 ## 6. Applied Summary: From Research to Practice
 
 If you’re a backend engineer, here’s the intuitive way to think about the whole progression:
