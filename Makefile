@@ -22,3 +22,7 @@ serve:
 # Clean Hugo cache
 clean:
 	$(HUGO) --cleanDestinationDir
+
+# setup the repo to be ready to serve
+setup:
+	git submodule update --init --recursive
