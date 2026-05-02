@@ -332,3 +332,89 @@ The honest meta-point: most people who join a robotics lab try to become ML rese
 The field is about five years into its foundation-model era. The models are converging; the stacks underneath them are not. That’s where the next few years of leverage are.
 
 ---
+
+## Appendix: Tech concepts mentioend above
+
+### Signed Distance Fields (SDFs)
+
+An SDF is a function `f: R^3 → R` where `f(p)` returns the distance from point `p` to the nearest surface, signed: negative inside the object, positive outside, zero on the surface. In practice you discretize it: a 3D voxel grid (voxel grid is a data structure that organizes volumetric pixels ("voxels") into a three-dimensional grid, analogous to 3D pixels) where each voxel stores `f` at its center.
+
+What makes them useful in motion planning:
+
+- **Collision check is O(1).** Ask "is `p` inside an obstacle?" → look up the voxel, check the sign. No mesh-vs-mesh intersection math.
+- **Differentiable.** `∇f(p)` points away from the nearest surface, with magnitude equal to the rate of distance change. A cost like `Σ max(-f(p_i), 0)` summed over trajectory points is a smooth penalty for being inside obstacles, and gradient descent on it literally pushes the trajectory out of obstacles. Compare to the indicator function `1[p inside obstacle]` - same information, but its gradient is zero almost everywhere and undefined on the surface, so you can't optimize against it.
+- **GPU-friendly.** Voxel grids are 3D arrays; lookups are essentially texture fetches.
+
+If you've seen a 2D distance map (Photoshop's "distance to mask," or an A* heuristic that pre-computes distance to walls), an SDF is that, in 3D, signed.
+
+### MuJoCo's "Differentiable Contact Model" - and Why You Should Care
+
+Real-world contact is discontinuous. The foot is either in the air (no force) or on the ground (large normal force). Mathematically, that's a step function in the dynamics, which means the dynamics are non-smooth, which means gradients are zero almost everywhere and undefined at the interesting points. Gradient-based optimization dies.
+
+MuJoCo's trick: replace the rigid contact constraint with a **convex optimization problem solved at every timestep.** Specifically, MuJoCo formulates contact as a convex Lagrangian - minimize a quadratic with constraints that softly enforce non-penetration and friction. The solution is unique and depends smoothly on the inputs. So `∂(next_state) / ∂(current_state, action)` exists and is computable, even at the moment of contact.
+
+The trade-off: it's not perfectly physically faithful - real contact has stick-slip behavior, the Coulomb friction cone is non-smooth, restitution is hysteretic. MuJoCo smooths over those. For control theory and RL, that smoothing is a *feature* (you can backprop). For verifying that your robot won't actually fall over on real hardware, it's a *bug* (the model is slightly fictional).
+
+If you've taken a convex optimization class: the relevant idea is "barrier methods soften hard constraints into smooth ones." Same pattern, applied to physics.
+
+### cuRobo Internals: Two Solvers, One GPU
+
+A motion planner has to do one thing: given start config `q_start`, goal pose `T_goal`, and obstacles, return a sequence of joint configurations `q_0, q_1, …, q_N` that's collision-free and reaches the goal. There are two algorithmic families.
+
+**Graph solver.** Treat configuration space as a graph: sample many random configurations, draw an edge between two configs if the straight-line connection between them is collision-free, run Dijkstra or A* to find a shortest path. PRM and RRT are the canonical instances. Combinatorial, discrete, no gradients required. Robust to weird topology (mazes, narrow passages) but produces jagged paths.
+
+**Trajectory solver.** Parameterize the path as a smooth curve `q(t)` (e.g., a spline with control points), define a scalar cost `J(q) = pose_error + collision_penalty + smoothness + joint_limit_penalty`, run gradient descent (or Levenberg-Marquardt) on the control points. Continuous, differentiable, produces smooth paths. But: **the cost is non-convex.** The collision-free region of configuration space is generally non-convex - there are obstacles, and the set of paths that avoid them is not closed under convex combinations. So gradient descent gets stuck in bad local minima, and the solution depends heavily on initialization.
+
+That non-convexity is the whole reason this is hard. A naive gradient-descent planner from a bad init either crashes through a wall or oscillates around an obstacle forever.
+
+**cuRobo's hybrid strategy.** On a GPU you can launch *thousands* of trajectory optimizations in parallel from different random initializations. Most "easy" planning problems - goal reachable without weird routing - get solved by at least one of those parallel attempts in a few milliseconds. That's the fast path.
+
+When *all* parallel trajectory attempts fail (the problem genuinely requires routing around something complex, no random init lands in the right basin), cuRobo falls back to a graph solver: builds a roadmap, finds a feasible-but-jagged path through it, and **uses that path as the initialization** for trajectory optimization. The graph solver answers the topological question ("which way around the obstacle"); trajectory optimization answers the smoothness question ("now make it pretty").
+
+In SWE terms: same pattern as "try the JIT-compiled fast path first, fall back to the interpreter when the fast path bails." Cheap parallel attempts handle the common case; an expensive but reliable algorithm handles the long tail.
+
+### Diffusion Models, in Three Equations
+
+Diffusion is a generative model. You want to sample from `p_data(x)` - could be images, could be action trajectories.
+
+**Forward process.** Take a real sample `x_0` and gradually destroy it by adding Gaussian noise:
+
+```
+x_t = sqrt(α_t) * x_0 + sqrt(1 - α_t) * ε,    ε ~ N(0, I)
+```
+
+where `α_t` is a schedule going from ~1 (no noise) at `t=0` to ~0 (pure noise) at `t=T`. After enough steps, `x_T` is indistinguishable from `N(0, I)`.
+
+**Training objective.** Train a neural network `ε_θ(x_t, t)` to predict the noise that was added:
+
+```
+L = E[ || ε - ε_θ(x_t, t) ||² ]
+```
+
+That's it. Mean-squared-error regression on noise. (The justification is a tractable lower bound on log-likelihood - same flavor as the VAE ELBO if you've seen that.)
+
+**Sampling.** Start from noise `x_T ~ N(0, I)`. At each step, predict the noise, subtract a scaled version of it, add a small amount of fresh noise, repeat. After `T` steps you land on a sample from `p_data`.
+
+Why it works: the noise predictor `ε_θ` is implicitly learning the **score function** `∇_x log p(x)` - the gradient of log-density with respect to `x`. Sampling is approximately gradient ascent on log-density, with noise injected to keep you exploring rather than collapsing to a single mode.
+
+For policies (Diffusion Policy), `x` isn't an image - it's an action trajectory chunk. Same math, different `x`. Diffusion's exceptional ability to represent multimodal distributions (mentioned earlier in the post) is exactly what you'd predict from this formulation: gradient-ascending on a log-density with multiple peaks lands at different peaks depending on initialization, instead of averaging them like an MLP would.
+
+### Flow Matching, the Faster Cousin
+
+Diffusion's sampling cost is many denoising steps. Flow matching cuts that by training a different object: a **velocity field** `v_θ(x, t)` such that following the ODE `dx/dt = v_θ(x, t)` from `t=0` (noise) to `t=1` (data) transports noise into data along approximately straight lines.
+
+Training is again MSE, but on velocities instead of noise:
+
+```
+L = E[ || v_θ(x_t, t) - (x_1 - x_0) ||² ]
+```
+
+where `x_0 ~ noise`, `x_1 ~ data`, and `x_t = (1-t) * x_0 + t * x_1` is a straight-line interpolation. The network learns: "given any point on the path between noise and data, what direction should you move?"
+
+Why it's faster: integrating an ODE with a smooth velocity field needs far fewer steps than integrating a stochastic process. In practice, ~10 ODE steps for flow matching vs. ~50–1000 for diffusion to hit comparable quality.
+
+If you've seen normalizing flows: flow matching is "normalizing flows but trained without the change-of-variables determinant headache." If you've seen ODEs in calc: it's literally that - train a vector field, integrate it.
+
+This is why **π0** (flow-matching policy) and the Transfusion line of work are the architectural direction of travel: same generative quality as diffusion, fraction of the inference cost. For a robot running closed-loop at 50+ Hz, that cost difference decides whether the model is deployable on hardware or not.
+
+---
